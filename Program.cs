@@ -8,7 +8,7 @@ namespace TQ.Texture_Test
 {
     static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Span<byte> file = File.ReadAllBytes("texture.tex");
             var texture = new Texture.Texture(file);
